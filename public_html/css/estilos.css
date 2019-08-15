@@ -8,13 +8,16 @@ body {
   padding: 0;
 }
 
-h1 {
+header {
   background: DarkGreen;
-  border-bottom: 1px lightgray solid;
-  color: white;
-  font-size: 36px;
+  border-bottom: 5px lightgray solid;
   margin: 0;
   padding: 1em;
+}
+
+h1 {
+  color: white;
+  font-size: 36px;
   text-align: center;
   text-shadow: 0 1px .15rem rgba(0,0,0,.35);
 }
@@ -78,8 +81,9 @@ h2 {
 }
 
 nav {
-  margin-top: 5em;
+  margin: 5em auto 0 auto;
   text-align: right;
+  width: 998px;
 }
 
 nav ul {
@@ -115,4 +119,12 @@ nav select {
 
 nav select:focus {
   outline: none;
+}
+
+footer {
+background: DarkGreen;
+margin: 0;
+padding: 3em;
+text-align: center;
+color: WhiteSmoke;
 }
